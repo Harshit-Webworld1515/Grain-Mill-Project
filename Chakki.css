@@ -1,0 +1,255 @@
+#kki a{
+    text-align: center;
+    padding: 9px;
+    margin-left: 1200px ;
+    margin-top: 492px ;
+    border: 1px solid blue;
+    background-color: #F1E3D3;
+    border-top-right-radius:35px ;
+    border-bottom-left-radius: 35px;
+    width: 68px;
+
+}
+#kki h1{
+    font-family: Impact;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+    display: inline;
+    background-color: rgb(123, 52, 1);
+    color: white;
+    text-decoration: underline overline yellow;
+    font-size: 59px;
+}
+#kki a{
+    text-decoration: none;
+}
+body {
+  background-image: url('chakkipic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+#kki{
+    text-align: left;
+    line-height: 1;
+}
+nav>i{
+    font-size: 45px;
+}
+nav h2 {
+    font-size: 48px;
+    background-color: #fff;
+    display: inline;
+    text-decoration: underline overline black;
+    line-height: 1.7;
+}
+nav a{
+    line-height: 1.4;
+    font-size: 22px;
+    text-decoration: none;
+}
+form{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 2.3;
+    color: #000;
+    background-color: white;
+    display: inline;
+}
+form input{
+    background-color: wheat;
+    color: black;
+}
+div >i {
+    font-size: 55px;
+}
+#head{
+    text-align: center;
+    background-color: #f00;
+    color: white;
+    display: inline;
+    text-decoration: underline yellow;
+    font-size: 57px;
+}
+input{
+    color: wheat;
+    height: 30px;
+    width: 198px;
+}
+#spes h2{
+    font-size: 40px;
+    background-color: #fff;
+    color: black;
+    text-decoration: underline overline;
+    display: inline;
+}
+#spes ol{
+    font-size: 20px;
+    background-color: wheat;
+    display: inline-block;
+    line-height: 1.4;
+}
+#capt i{
+    font-size: 35px;
+}
+#capt h2{
+    font-size: 35px;
+    background-color: #fff;
+    color: black;
+    text-decoration: underline overline;
+    display: inline;
+}
+#capt thead{
+    font-size: 20px;
+    color: red;
+    background-color: rgb(229, 229, 140);
+}
+#capt tbody{
+    background-color: white;
+}
+#capt tfoot{
+    background-color: lightblue;
+}
+#raat h2{
+    font-size: 35px;
+    background-color: #fff;
+    color: black;
+    text-decoration: underline overline;
+    display: inline;
+    line-height: 1.85;
+}
+#raat label{
+    font-size: 23px;
+    color: green;
+}
+#raat select{
+    width: 150px;
+    height: 40px;
+    border-radius: 34px;
+    background-color: lightyellow;
+    color: #000;
+    font-weight: 600;
+}
+#Suggest h2{
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    text-decoration: underline overline;
+    display: inline;
+    line-height: 1.9;
+}
+#Suggest label{
+    font-size: 23px;
+    color: green;
+}
+#Suggest textarea{
+    height: 100px;
+    width: 200px;
+}
+button{
+    height: 37px;
+    width: 70px;
+    color: green;
+    font-family: cursive;
+    background-color: rgb(230, 144, 217);
+    font-size: large;
+    border-radius: 11px;
+}
+#abut h2{
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    text-decoration: underline overline;
+    display: inline;
+    line-height: 1.9;
+}
+#abut p{
+    background-color: rgb(133, 63, 13);
+    color: #ffffff;
+    display: inline;
+}
+#add h2{
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    text-decoration: underline overline;
+    display: inline;
+    line-height: 1.9;
+}
+#add address{
+    font-size: 23px;
+    background-color:rgb(198, 167, 109) ;
+    color:black;
+    display: inline;
+}
+#add h3{
+    text-align: center;
+    background-color: #000;
+    color: white;
+    text-decoration: underline overline;
+    line-height: 1.9;
+    margin-top: 5px;
+}
+span p{
+    font-family: monospace;
+    background-color: rgb(198, 167, 109);
+    display: inline;
+    color: black;
+    transition: all 2s ease-in .1s;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+button:active{
+    background-color: yellow;
+    color: red;
+}
+ol:hover{
+    color:darkgreen;
+}
+#rate{
+    background-color: rgb(238, 208, 213);
+    color: rgb(13, 44, 241);
+}
+#abut p:hover{
+    background-color: #fff;
+    color: chocolate;
+}
+span p:hover{
+    background-color: #fff;
+    color: green;
+    transform: scale(1);
+    display: inline-block;
+}
+textarea{
+    border-radius: 24px;
+    border: 2px solid black;
+    padding: 4px;
+}
+#address{
+    width: 200px;
+    height: 58px;
+    padding: 15px;
+    margin-left: 3px; ;
+}
+#spes ol{
+    border-top-right-radius:35px ;
+    border-bottom-left-radius: 35px;
+    padding-right: 14px;
+    padding-left: 45px;
+    padding-top: 13px;
+}
+pre{
+    font-family: monospace;
+     font-size: 16px;
+}
+.social_media ul{
+    position: relative;
+    line-height: 15px;
+    bottom: 5px;
+    padding-top: 20px;
+    margin: 0px;
+}
