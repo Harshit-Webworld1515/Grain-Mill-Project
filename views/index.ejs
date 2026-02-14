@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succesful Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <% if (list && list.user && list.weight && list.Address) { %>
+        <h2>&nbsp;<i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;Form submitted successfully!</h2>
+
+        <ul>
+            <li><strong>Customer Name:</strong>
+                <%= list.user %>
+            </li>
+            <li><strong>Weight of Grain:</strong>
+                <%= list.weight %> kg
+            </li>
+            <li><strong>Address:</strong>
+                <%= list.Address %>
+            </li>
+        </ul>
+
+        <% } else { %>
+            <p>No data submitted yet.</p>
+            <% } %>
+            <a href="/chakki">back to home</a>
+</body>
+
+</html>
